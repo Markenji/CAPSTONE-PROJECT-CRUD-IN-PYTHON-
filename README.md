@@ -9,13 +9,19 @@
 
 ## Run the app 
 Clone the Repo
-    git clone https://github.com/Markenji/capstone-project-crud-in-python.git
+```
+     git clone https://github.com/Markenji/capstone-project-crud-in-python.git
+```
 
 Close to the directory 
+```
     cd capstone-project-crud-in-python
+```
 
 Run the app
+```
     python rms.py
+```
 
 ## Sample Data Pasien 
 
