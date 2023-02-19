@@ -19,7 +19,7 @@ Run the app
 
 ## Sample Data Pasien 
 
-    ```javascript
+```javascript
     {   "kode" : "PS001",
         "nama" : "Taufik",
         "ruangan" : "RM001",
@@ -27,7 +27,7 @@ Run the app
         "umur" : 30,
         "status" : "Dirawat"
     }
-    ```
+```
 
 ### Submenu melihat Daftar Pasien
 1. Melihat Daftar Seluruh Pasien
