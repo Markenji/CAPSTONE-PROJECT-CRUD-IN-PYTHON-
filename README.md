@@ -20,7 +20,8 @@ Run the app
 ## Sample Data Pasien 
 
 ```javascript
-    {   "kode" : "PS001",
+    {   
+        "kode" : "PS001",
         "nama" : "Taufik",
         "ruangan" : "RM001",
         "alamat" : "Pater",
