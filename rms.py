@@ -200,28 +200,31 @@ def cekHistoryPasien():
         
     printsampah(sampah)
 
-while True:
-    pilihanmenu = input('''
-        Selamat Datang RSM ( RUMAH SAKIT MARKENJI )
+def menu_utama():   
+    while True:
+        pilihanmenu = input('''
+            Selamat Datang RSM ( RUMAH SAKIT MARKENJI )
 
-        list Menu :
-        1. Melihat Daftar Pasien
-        2. Pasien Check IN
-        3. Mengedit Data Pasien
-        4. Pasien Check OUT
-        5. Cek History Kunjungan Pasien
-        6. Exit Program
+            list Menu :
+            1. Melihat Daftar Pasien
+            2. Pasien Check IN
+            3. Mengedit Data Pasien
+            4. Pasien Check OUT
+            5. Cek History Kunjungan Pasien
+            6. Exit Program
 
-        Masukkan angka Menu yang ingin dijalankan : ''')
-    if(pilihanmenu == '1'):
-        menampilkanDaftarPasien()
-    elif(pilihanmenu == '2'):
-        menambahPasien()
-    elif(pilihanmenu == '3'):
-        mengeditPasien()
-    elif(pilihanmenu == '4'):
-        mengHapusPasien()
-    elif(pilihanmenu == '5'):
-        cekHistoryPasien()
-    elif(pilihanmenu == '6'):
-        break
+            Masukkan angka Menu yang ingin dijalankan : ''')
+        if(pilihanmenu == '1'):
+            menampilkanDaftarPasien()
+        elif(pilihanmenu == '2'):
+            menambahPasien()
+        elif(pilihanmenu == '3'):
+            mengeditPasien()
+        elif(pilihanmenu == '4'):
+            mengHapusPasien()
+        elif(pilihanmenu == '5'):
+            cekHistoryPasien()
+        elif(pilihanmenu == '6'):
+            break
+           
+ menu_utama()
