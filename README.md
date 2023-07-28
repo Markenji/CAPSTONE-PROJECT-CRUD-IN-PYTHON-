@@ -1,3 +1,5 @@
+![alt text](https://github.com/Markenji/capstone-project-crud-in-python/blob/main/crud.jpg?raw=true)
+
 # APLIKASI CRUD  -  Data Pasien Rumah Sakit 
 
 ## Menu Utama
